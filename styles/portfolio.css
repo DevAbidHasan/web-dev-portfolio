@@ -161,3 +161,43 @@ main{
 main section{
     margin-top: 70px;
 }
+/* resume section styles */
+.resume{
+    display: flex;
+    gap: 70px;
+    text-align: justify ;
+}
+.resume-main-heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-top: 100px;
+}
+.resume-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume-main-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-timeline{
+    font-weight: 600px;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 2%;
+
+}
+.resume-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+.and{
+    display:block;
+    margin: 50px auto 110px auto;
+}
