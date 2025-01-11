@@ -201,3 +201,40 @@ main section{
     display:block;
     margin: 50px auto 110px auto;
 }
+
+/* footer menu styles */
+
+.footer-menu{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 110px 110px 130px 200px;
+    gap: 100px;
+}
+.footer-column2{
+    display: flex;
+    flex-direction: column;
+    /* width: auto; */
+}
+.textbox{
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom:20PX;
+    border: none;
+}
+.footer-msg{
+    border: none;
+    border-radius: 5px;
+    height: 140px;
+    width: 450px;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    font-family: Open Sans;
+}
+.ok{
+    height: 60px;
+    width: 150px;
+}
+.social-icons{
+    display: flex;
+    gap: 30px;
+}
