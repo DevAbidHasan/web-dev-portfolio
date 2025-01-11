@@ -5,10 +5,6 @@
   font-variation-settings:
     "wdth" 100;
 }
-/* *{
-    margin: 0;
-    padding: 0;
-} */
 nav{
     display: flex;
     align-items: center;
@@ -53,17 +49,14 @@ nav>ul{
     font-size: 20px;
     font-weight: 700px;
     font: Open Sans;
-    /* margin-top: 20px; */
     cursor: pointer;
 }
 /* banner design */
 .banner{
     display: flex;
-    /* margin: 183PX ; */
     justify-content: space-between;
     margin-left: 200px;
     margin-right: 38px;
-    /* max-width: 580px; */
 }
 .banner-greetings{
     color: #474747;
@@ -84,9 +77,69 @@ nav>ul{
     margin-bottom: 30px;
 }
 .banner-content{
-    /* margin: 183px 163px 184px 230px; */
     max-width: 580px;
 }
 .zero{
     margin-right: 30px;
+}
+/* about styles */
+.about-heading{
+    font-size: 35px;
+    font-weight: 800px;
+}
+.about-description{
+    font-size: 18px;
+    font-weight: 400px;
+    color: #757575;
+}
+main{
+    max-width: 1140px;
+    margin: 135px auto;
+    /* margin-top: 135px; */
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400px;
+    color:#757575 ;
+}
+.second-bg{
+    background-color: #FFF8F3;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    /* margin: 130px 230px; */
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+    margin: 0 30px;
+}
+.about-item{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #757575;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    margin-right: 20px;
+}
+.last{
+    border: 1px solid black;
+    background-color: #FFFFFF;
 }
